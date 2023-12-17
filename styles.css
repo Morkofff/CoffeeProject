@@ -1,0 +1,701 @@
+@font-face {
+    font-family: 'Clicker Script';
+    src: url(fonts/ClickerScript-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+
+    background-image: linear-gradient(to right, #1E1E1E, #00000000), url(images/coffee_image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;   
+}
+
+.head > * {
+    padding-top: 15px;
+}
+
+.logo, .login {
+    margin-left: 93px;
+    margin-right: 93px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 39px;
+}
+
+.logo {
+    font-family: Clicker Script;
+    font-size: 35px;
+}
+
+nav, .login {
+    font-family: Playfair Display;
+    font-size: 14px;
+}
+
+.login {
+    display: flex;
+    column-gap: 20px;
+}
+
+.signin {
+    text-decoration: underline;
+}
+
+.signup {
+    border: 1px solid #F9C06A;
+    border-radius: 24px;
+    background-color: #F9C06A;
+    width: 100px;
+    height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 48px;
+    color: #1E1E1E;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    bottom: 16px;
+}
+
+.descr {
+    margin-top: 116px;
+    margin-left: 93px;
+    width: 527px;
+}
+
+.text p {
+    margin: 0;
+    padding: 0;
+}
+
+.row1 {
+    font-family: Playfair Display;
+    font-size: 22px;
+}
+
+.bigcoffee {
+    font-family: Clicker Script;
+    font-size: 220px;
+    height: 291px;
+    vertical-align: middle;
+    line-height: 291px;
+}
+
+.row2 {
+    font-family: Playfair Display;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.text {
+    padding-bottom: 20px;
+}
+
+.button {
+    border: 1px solid #F9C06A;
+    border-radius: 24px;
+    background-color: #F9C06A;
+    width: 134px;
+    height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 48px;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.secondblock {
+    height: 484px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 82px;
+    margin-left: 93px;
+    margin-right: 93px;
+}
+
+.first {
+    width: 585px;
+    margin-left: 0;
+}
+
+.discover {
+    color: #603809;
+    font-size: 54px;
+    font-family: Playfair Display;
+    font-weight: bold;
+}
+
+.beanscene {
+    margin-top: 29px;
+    font-family: Playfair Display;
+    font-size: 20px;
+    line-height: 34px;
+    font-style: normal;
+    color: #707070;
+}
+
+.coffeeblast {
+    position: absolute;
+    left: 0px;
+    background-image: url(images/coffee_blast.png);
+    background-repeat: no-repeat;
+    width: 498px;
+    height: 272px;
+}
+
+.secondblock .button {
+    margin-top: 29px;
+}
+
+.stylized {
+    width: 500px;
+    height: 484px;
+    background-image: url(images/stylized-cup-coffee-out-coffee-beans-flat-lay\ 1.png);
+}
+
+.enjoy {
+    margin-top: 82px;
+    font-size: 54px;
+    font-family: Playfair Display;
+    color: #603809;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.explore {
+    font-size: 20px;
+    font-family: Playfair Display;
+    color: #707070;
+    text-align: center;
+    line-height: 34px;
+}
+
+.products {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products > * {
+    width: 280px;
+    height: 364px;
+    border: 1px #f9c06a69 solid;
+    background-color: #FFF9F1;
+    text-align: center;
+}
+
+.title {
+    margin-top: 14px;
+    font-size: 22px;
+    font-family: Playfair Display;
+    color: #603809;
+    font-weight: bold;
+}
+
+.structure {
+    margin-top: 6px;
+    font-family: Playfair Display;
+    font-size: 16px;
+    color: #1E1E1E;
+}
+
+.price {
+    margin-top: 6px;
+    font-size: 18px;
+    font-family: Playfair Display;
+    color: #603809;
+    font-weight: bold;
+}
+
+.order {
+    border: 1px solid #F9C06A;
+    border-radius: 24px;
+    background-color: #F9C06A;
+    width: 134px;
+    height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 48px;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+}
+
+.coffeeblast1 {
+    margin-top: -35px;
+    position: absolute;
+    right: 0px;
+    background-image: url(images/coffee_blast\ \(1\).png);
+    background-repeat: no-repeat;
+    min-width: 373px;
+    min-height: 261px;
+    overflow: hidden;
+    background-size: contain;
+}
+
+.why {
+    margin-top: 82px;
+    font-size: 54px;
+    font-family: Playfair Display;
+    color: #603809;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.make {
+    font-size: 20px;
+    font-family: Playfair Display;
+    color: #707070;
+    text-align: center;
+    line-height: 34px;
+}
+
+.other {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.other > * {
+    width: 280px;
+    height: 284px;
+    border: 1px #f9c06a69 solid;
+    background-color: #FFF9F1;
+    text-align: center;
+}
+
+.beans {
+    background-color: #FFEED8;
+}
+
+.icon {
+    margin-top: 36px;
+    width: 88px;
+    height: 88px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.other .title {
+    margin-top: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Playfair Display;
+    color: #603809;
+}
+
+.desc {
+    width: 176px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Playfair Display;
+    color: #707070;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon1 {
+    background-image: url(images/coffee-beans\ 1.png);
+}
+
+.icon2 {
+    background-image: url(images/badge\ 1.png);
+}
+
+.icon3 {
+    background-image: url(images/coffee-cup\ 1.png);
+}
+
+.icon4 {
+    background-image: url(images/best-price\ 1.png);
+}
+
+.ideas {
+    margin-top: 32px;
+    font-size: 20px;
+    font-family: Playfair Display;
+    color: #707070;
+    text-align: center;
+}
+
+.started {
+    font-size: 30px;
+    font-family: Playfair Display;
+    color: #603809;
+    font-weight: bold;
+    text-align: center;
+}
+
+.join {
+    border: 1px solid #F9C06A;
+    border-radius: 24px;
+    background-color: #F9C06A;
+    width: 134px;
+    height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 48px;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+}
+
+.block5 {
+    margin-top: 82px;
+    height: 574px;
+    background-image: url(images/Group\ 36.png);
+    background-size: cover;
+}
+
+.descr5 {
+    position: relative;
+    top: 135px;
+    left: 93px;
+    width: 575px;
+}
+
+.get { 
+    font-size: 54px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: Playfair Display;
+}
+
+.giving {
+    width: 409px;
+    margin-top: 22px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: Playfair Display;
+    line-height: 34px;
+}
+
+.ordernow {
+    border: 1px solid #F9C06A;
+    border-radius: 24px;
+    background-color: #F9C06A;
+    width: 134px;
+    height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 48px;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.block6 {
+    margin-top: 82px;
+    text-align: center;
+}
+
+.coffeeblast2 {
+    margin-top: 131px;
+    position: absolute;
+    right: 0px;
+    background-image: url(images/coffee_blast\ \(1\).png);
+    background-repeat: no-repeat;
+    min-width: 373px;
+    min-height: 261px;
+    overflow: hidden;
+    background-size: contain;
+}
+
+.our {
+    font-size: 54px;
+    color: #603809;
+    font-family: Playfair Display;
+    font-weight: bold;
+}
+
+.customers {
+    margin-top: 16px;
+    font-family: Playfair Display;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.feedback {
+    width: 980px;
+    height: 550px;
+    background-color: #FFF9F1;
+    border: 1px solid #f9c06a69;
+    margin: 45px auto;
+}
+
+.chto {
+    font-size: 220px;
+    color: #603809;
+    font-weight: bold;
+    line-height: 112px;
+    font-family: Playfair Display;
+    margin-top: 54px;
+    margin-left: 29px;
+    text-align: left;
+}
+
+.lorem {
+    font-size: 18px;
+    color: #707070;
+    line-height: 36px;
+    font-family: Playfair Display;
+    font-weight: bolder;
+    width: 780px;
+    margin: 0 auto;
+}
+
+.names {
+    font-size: 32px;
+    color: #603809;
+    font-weight: bold;
+    font-family: Playfair Display;
+    margin: 28px auto 0px auto;
+}
+
+.manager {
+    font-size: 20px;
+    color: #707070;
+    line-height: 34px;
+    margin-top: 4px;
+}
+
+.photoman {
+    width: 112px;
+    height: 112px;
+    background-image: url(images/eba.png);
+    background-position: center;
+    background-size: contain;
+    margin-top: 45px;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.strel {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 350px;
+}
+
+.strelka1 {
+    width: 82px;
+    height: 82px;
+    position: relative;
+    right: 41px;
+    border-radius: 24px;
+    background-color: #F9C06A;
+    align-self: flex-start;
+}
+
+.strelka2 {
+    width: 82px;
+    height: 82px;
+    position: relative;
+    left: 41px;
+    border-radius: 24px;
+    background-color: #F9C06A;
+    align-self: flex-end;
+}
+
+.str {
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+.subscribe {
+    margin-top: 82px;
+    background-image: url(images/Group\ 46.png);
+    height: 374px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.textik {
+    position: relative;
+    top: 82px;
+}
+
+.news {
+    font-family: Playfair Display;
+    color: white;
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.miss {
+    margin-top: 16px;
+    font-family: Playfair Display;
+    color: white;
+    line-height: 34px;
+    text-align: center;
+}
+
+.email {
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF9F1;
+    width: 642px;
+    height: 66px;
+    border: 1px solid #f9c06a74;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    margin-left: 26px;
+    background-color: #fff6f1;
+    border: 0;
+    color: #00000055;
+    font-size: 20px;
+    font-family: Playfair Display;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.knopka {
+    border: 1px solid #f9c06a74;
+    background-color: #F9C06A;
+    height: 65px;
+    color: #603809;
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 4px;
+    flex-basis: 137px;
+    line-height: 65px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.wing1 {
+    position: absolute;
+}
+
+.wing2 {
+    position: absolute;
+    right: 0;
+}
+
+footer {
+    width: 100%;
+    height: 492px;
+    background-color: #4c2c07;
+}
+
+.lastflexes {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.lastflexes > * {
+    margin-top: 161px;
+    color: white;
+    font-family: Playfair Display;
+}
+
+.scene {
+    font-family: Clicker Script;
+    font-size: 54px;
+}
+
+.loremlast {
+    margin-top: 20px;
+    width: 380px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.companylast {
+    width: 145px;
+}
+
+.textlast {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.elements {
+    margin-top: 55px;
+}
+
+.elements > * {
+    margin-top: 20px;
+    font-size: 18px;   
+}
+
+.geo {
+    width: 332px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
